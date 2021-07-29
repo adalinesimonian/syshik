@@ -1,6 +1,6 @@
 {
   "name": "syshik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Searches for text obscured using homoglyphs or other text trickery",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
