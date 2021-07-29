@@ -1,0 +1,32 @@
+{
+  "name": "syshik",
+  "version": "1.0.0",
+  "description": "Searches for text obscured using homoglyphs or other text trickery",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "repository": "https://github.com/adalinesimonian/syshik",
+  "author": {
+    "name": "Adaline Simonian",
+    "email": "adalinesimonian@gmail.com"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean",
+    "prepack": "tsc",
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}

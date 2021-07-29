@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`argument types find should throw when called with a non-string and non-string-array search argument 1`] = `"Search strings must either be passed as a string or an array of strings, found number"`;
+
+exports[`argument types find should throw when called with a non-string and non-string-array search argument 2`] = `"Search strings must either be passed as a string or an array of strings, found boolean"`;
+
+exports[`argument types find should throw when called with a non-string and non-string-array search argument 3`] = `"Search strings must either be passed as a string or an array of strings, found object"`;
+
+exports[`argument types find should throw when called with a non-string and non-string-array search argument 4`] = `"Search strings must either be passed as a string or an array of strings, found undefined"`;
+
+exports[`argument types find should throw when called with a non-string and non-string-array search argument 5`] = `"Search strings must either be passed as a string or an array of strings, found object"`;
+
+exports[`argument types find should throw when called with a non-string and non-string-array search argument 6`] = `"Search strings must either be passed as a string or an array of strings, found function"`;
+
+exports[`argument types find should throw when called with a non-string argument 1`] = `"Expected a string, found number"`;
+
+exports[`argument types find should throw when called with a non-string argument 2`] = `"Expected a string, found boolean"`;
+
+exports[`argument types find should throw when called with a non-string argument 3`] = `"Expected a string, found object"`;
+
+exports[`argument types find should throw when called with a non-string argument 4`] = `"Expected a string, found undefined"`;
+
+exports[`argument types find should throw when called with a non-string argument 5`] = `"Expected a string, found object"`;
+
+exports[`argument types find should throw when called with a non-string argument 6`] = `"Expected a string, found object"`;
+
+exports[`argument types find should throw when called with a non-string argument 7`] = `"Expected a string, found function"`;

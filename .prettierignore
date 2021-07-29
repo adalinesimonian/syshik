@@ -1,0 +1,6 @@
+node_modules
+.yarn
+.pnp.*
+dist
+# https://github.com/prettier/prettier/issues/4210
+src/charmap.ts
