@@ -1,5 +1,5 @@
-import { escapeForRegex } from './regex-utils'
-import charmap from './charmap'
+import { escapeForRegex } from './regex-utils.js'
+import charmap from './charmap.js'
 
 /**
  * Cached regexes for known search strings.

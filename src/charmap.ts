@@ -3,7 +3,7 @@
 //
 // Ensure formatting of this file is consistent with the rest of the codebase.
 
-import { escapeForRegex } from './regex-utils'
+import { escapeForRegex } from './regex-utils.js'
 
 function createRegexPatternMap<T extends Record<string, string[]>>(
   obj: T
