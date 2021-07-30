@@ -79,4 +79,8 @@ describe('homoglyphs and lookalikes', () => {
   it('find should match lookalikes', () => {
     expect(find('|=/-\\|<3', 'fake')).toEqual(['|=/-\\|<3'])
   })
+
+  it('find should match emojis', () => {
+    expect(find('🅰 n0️⃣b🅾dy', 'a nobody')).toEqual(['🅰 n0️⃣b🅾dy'])
+  })
 })
